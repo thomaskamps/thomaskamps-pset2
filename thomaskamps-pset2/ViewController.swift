@@ -19,7 +19,27 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if let secondVC = segue.destination as? SecondViewController {
+            
+            let textNames = ["madlib3_clothes", "madlib4_dance", "madlib2_university", "madlib1_tarzan", "madlib0_simple"]
+            let selectedText = textNames[Int(arc4random_uniform(UInt32(textNames.count)))]
+            var textStream: String?
+            
+            if let path = Bundle.main.path(forResource: selectedText, ofType: "txt") {
+                do {
+                    textStream = try String(contentsOfFile: path, encoding: .utf8)
+                } catch {
+                    print(error)
+                }
+            }
+            
+            let story = Story(stream: textStream!)
+            
+            secondVC.story = story
+        }
+    }
 
 }
 

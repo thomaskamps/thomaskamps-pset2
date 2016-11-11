@@ -12,6 +12,14 @@
 		CECA7D771DD1E8470044ECEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CECA7D751DD1E8470044ECEA /* Main.storyboard */; };
 		CECA7D791DD1E8470044ECEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CECA7D781DD1E8470044ECEA /* Assets.xcassets */; };
 		CECA7D7C1DD1E8480044ECEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CECA7D7A1DD1E8480044ECEA /* LaunchScreen.storyboard */; };
+		CECA7D841DD1EF5F0044ECEA /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECA7D831DD1EF5F0044ECEA /* SecondViewController.swift */; };
+		CECA7D861DD1FEF90044ECEA /* Story.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECA7D851DD1FEF90044ECEA /* Story.swift */; };
+		CEF3AF891DD6155300C6A58A /* madlib0_simple.txt in Resources */ = {isa = PBXBuildFile; fileRef = CEF3AF841DD6155300C6A58A /* madlib0_simple.txt */; };
+		CEF3AF8A1DD6155300C6A58A /* madlib1_tarzan.txt in Resources */ = {isa = PBXBuildFile; fileRef = CEF3AF851DD6155300C6A58A /* madlib1_tarzan.txt */; };
+		CEF3AF8B1DD6155300C6A58A /* madlib2_university.txt in Resources */ = {isa = PBXBuildFile; fileRef = CEF3AF861DD6155300C6A58A /* madlib2_university.txt */; };
+		CEF3AF8C1DD6155300C6A58A /* madlib3_clothes.txt in Resources */ = {isa = PBXBuildFile; fileRef = CEF3AF871DD6155300C6A58A /* madlib3_clothes.txt */; };
+		CEF3AF8D1DD6155300C6A58A /* madlib4_dance.txt in Resources */ = {isa = PBXBuildFile; fileRef = CEF3AF881DD6155300C6A58A /* madlib4_dance.txt */; };
+		CEF3AF8F1DD62FCB00C6A58A /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF3AF8E1DD62FCB00C6A58A /* ThirdViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +30,14 @@
 		CECA7D781DD1E8470044ECEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CECA7D7B1DD1E8480044ECEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CECA7D7D1DD1E8480044ECEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CECA7D831DD1EF5F0044ECEA /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		CECA7D851DD1FEF90044ECEA /* Story.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Story.swift; sourceTree = "<group>"; };
+		CEF3AF841DD6155300C6A58A /* madlib0_simple.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = madlib0_simple.txt; sourceTree = "<group>"; };
+		CEF3AF851DD6155300C6A58A /* madlib1_tarzan.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = madlib1_tarzan.txt; sourceTree = "<group>"; };
+		CEF3AF861DD6155300C6A58A /* madlib2_university.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = madlib2_university.txt; sourceTree = "<group>"; };
+		CEF3AF871DD6155300C6A58A /* madlib3_clothes.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = madlib3_clothes.txt; sourceTree = "<group>"; };
+		CEF3AF881DD6155300C6A58A /* madlib4_dance.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = madlib4_dance.txt; sourceTree = "<group>"; };
+		CEF3AF8E1DD62FCB00C6A58A /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +70,20 @@
 		CECA7D701DD1E8470044ECEA /* thomaskamps-pset2 */ = {
 			isa = PBXGroup;
 			children = (
+				CEF3AF841DD6155300C6A58A /* madlib0_simple.txt */,
+				CEF3AF851DD6155300C6A58A /* madlib1_tarzan.txt */,
+				CEF3AF861DD6155300C6A58A /* madlib2_university.txt */,
+				CEF3AF871DD6155300C6A58A /* madlib3_clothes.txt */,
+				CEF3AF881DD6155300C6A58A /* madlib4_dance.txt */,
 				CECA7D711DD1E8470044ECEA /* AppDelegate.swift */,
 				CECA7D731DD1E8470044ECEA /* ViewController.swift */,
 				CECA7D751DD1E8470044ECEA /* Main.storyboard */,
+				CEF3AF8E1DD62FCB00C6A58A /* ThirdViewController.swift */,
 				CECA7D781DD1E8470044ECEA /* Assets.xcassets */,
 				CECA7D7A1DD1E8480044ECEA /* LaunchScreen.storyboard */,
 				CECA7D7D1DD1E8480044ECEA /* Info.plist */,
+				CECA7D831DD1EF5F0044ECEA /* SecondViewController.swift */,
+				CECA7D851DD1FEF90044ECEA /* Story.swift */,
 			);
 			path = "thomaskamps-pset2";
 			sourceTree = "<group>";
@@ -125,7 +149,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				CECA7D7C1DD1E8480044ECEA /* LaunchScreen.storyboard in Resources */,
+				CEF3AF8C1DD6155300C6A58A /* madlib3_clothes.txt in Resources */,
+				CEF3AF8A1DD6155300C6A58A /* madlib1_tarzan.txt in Resources */,
 				CECA7D791DD1E8470044ECEA /* Assets.xcassets in Resources */,
+				CEF3AF891DD6155300C6A58A /* madlib0_simple.txt in Resources */,
+				CEF3AF8B1DD6155300C6A58A /* madlib2_university.txt in Resources */,
+				CEF3AF8D1DD6155300C6A58A /* madlib4_dance.txt in Resources */,
 				CECA7D771DD1E8470044ECEA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,8 +166,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CECA7D841DD1EF5F0044ECEA /* SecondViewController.swift in Sources */,
 				CECA7D741DD1E8470044ECEA /* ViewController.swift in Sources */,
+				CEF3AF8F1DD62FCB00C6A58A /* ThirdViewController.swift in Sources */,
 				CECA7D721DD1E8470044ECEA /* AppDelegate.swift in Sources */,
+				CECA7D861DD1FEF90044ECEA /* Story.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +295,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 4W94L64SGM;
 				INFOPLIST_FILE = "thomaskamps-pset2/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "thomaskamps.thomaskamps-pset2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -276,6 +309,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 4W94L64SGM;
 				INFOPLIST_FILE = "thomaskamps-pset2/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "thomaskamps.thomaskamps-pset2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -302,6 +336,7 @@
 				CECA7D821DD1E8480044ECEA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
